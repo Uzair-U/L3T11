@@ -1,5 +1,0 @@
-When changing the models from md - sm, i noticed that the similarity values between the two models differed.
-In some cases the sm model had a higher similarity compared to the md model. In other cases the sm model had lower
-similarity values compared to the md model.
-I also received this error in the terminal when running with the sm model:
-The model you're using has no word vectors loaded, so the result of the Doc.similarity method will be based on the tagger, parser and NER, which may not give useful similarity judgements. This may happen if you're using one of the small models, e.g. `en_core_web_sm`, which don't ship with word vectors and only use context-sensitive tensors. You can always add your own word vectors, or use one of the larger models instead if available.
